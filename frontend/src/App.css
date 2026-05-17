@@ -47,7 +47,7 @@
     border:none;
 
 }
-.black-color-btn:hover{
+.black-color-btn button:hover{
     color:#e040a0;
     transform: scale(1.10);
 

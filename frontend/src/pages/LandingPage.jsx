@@ -1,5 +1,6 @@
 import React from 'react';
 import "../App.css";
+import {Link } from "react-router-dom"
 
 const LandingPage = () => {
   return (
@@ -27,8 +28,11 @@ const LandingPage = () => {
           <p className='main-texts'>Experience seamless collaboration powered by a high-performance Socket.io engine. Engineered specifically for the Google internship application to showcase low-latency synchronization and scalable architecture.</p>
 
           <div className='landingButtons'>
-            <button className='start-meeting-btn'>Start a Meeting</button>
-            {/* <button>View Project Details</button>  */}
+           <Link to={"/auth"}>
+             <button className='start-meeting-btn'>Start a Meeting</button>
+             </Link>
+          
+            
           </div>
         </div>
 
